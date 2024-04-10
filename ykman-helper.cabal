@@ -1,0 +1,18 @@
+cabal-version:      3.0
+name:               ykman-helper
+version:            0.1.0.0
+license:            MIT
+license-file:       LICENSE
+author:             jott8
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+
+common warnings
+    ghc-options: -Wall
+
+executable ykman-helper
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.16.4.0, process ^>=1.6.16.0, Hclip ^>=3.0.0.4
+    hs-source-dirs:   app
+    default-language: Haskell2010
