@@ -6,5 +6,5 @@ Helper tool for ykman oath codes
 +--------------+-------+
 | ykman-helper | USAGE |
 +--------------+-------+
-    ykman-helper [-c | -cc] account_name\n"
+    ykman-helper [-c | -cc] account_name"
 ```
